@@ -225,7 +225,7 @@
     @apply w-[20px] h-[20px] bg-black;
   }
   .header {
-    @apply mobile:w-[100%] mobile:h-[185px] mobile:bg-g--black mobile:relative desktop:w-full desktop:h-[100px] desktop:bg-g--black desktop:flex desktop:flex-wrap desktop:flex-row desktop:items-end desktop:justify-center desktop:pb-[12px] sticky top-0 z-50 transition-all duration-300 ease-linear dark:bg-black;
+    @apply sticky top-[0px] z-50 mobile:w-[100%] mobile:h-[185px] mobile:bg-g--black mobile:relative desktop:w-full desktop:h-[100px] desktop:bg-g--black desktop:flex desktop:flex-wrap desktop:flex-row desktop:items-end desktop:justify-center desktop:pb-[12px]  transition-all duration-300 ease-linear dark:bg-black;
   }
   .main__menu {
     @apply desktop:h-[100px] desktop:flex desktop:flex-wrap desktop:flex-row desktop:justify-center desktop:items-center desktop:pr-[200px] desktop:box-border desktop:relative mobile:hidden;
